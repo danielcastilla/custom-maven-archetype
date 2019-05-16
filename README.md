@@ -11,15 +11,12 @@ archetype
     |__main
         |__resources
             |__META-INF
-            |   |__maven
-            |       |__archetype-metadata.xml
+            |  |__maven
+            |     |__archetype-metadata.xml    
             |__archetype-resource
-                |__pom.xml
-                |__src
-                    |__main
-                        |__java
-                    |__test
-                        |__java
+               |__archetype-metadata.xml
+                  |__.gitignore
+                  |__README.md
 ```
 
 
