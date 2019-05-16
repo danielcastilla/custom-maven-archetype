@@ -7,9 +7,34 @@
     <fileSets>
         <fileSet filtered="true" packaged="true">
             <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" package="false" encoding="UTF-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.xml</include>
+                <include>**/*.properties</include>
+            </includes>
         </fileSet>
         <fileSet>
             <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.java</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="false" package="false" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>.gitignore</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" package="false" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>README.md</include>
+            </includes>
         </fileSet>
     </fileSets>
 </archetype-descriptor>
